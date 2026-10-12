@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ポストプレミアム株式会社｜AI出版・企業ブランディング</title>
+  <meta name="description" content="企業の歴史と経営者の想いを、AIと出版で『伝わる資産』に。社史・社長史・自分史・ファミリーヒストリー、電子出版、企業PRコンテンツ制作を支援します。">
+  <style>
+    :root {
+      --bg:#f7f5ef;
+      --card:#ffffff;
+      --ink:#1d2430;
+      --muted:#68707d;
+      --line:#dedbd2;
+      --accent:#1e4b5a;
+      --accent2:#c59d5f;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.8;
+    }
+    a { color:inherit; }
+    .wrap { width:min(1080px,92%); margin:auto; }
+    header {
+      position:sticky; top:0; z-index:20;
+      background:rgba(247,245,239,.94);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav {
+      display:flex; align-items:center; justify-content:space-between;
+      gap:20px; min-height:68px;
+    }
+    .brand { font-weight:800; letter-spacing:.04em; }
+    .nav a {
+      text-decoration:none; padding:10px 16px; border-radius:999px;
+      background:var(--accent); color:white; font-weight:700; font-size:.92rem;
+    }
+    .hero {
+      padding:88px 0 72px;
+      background:linear-gradient(135deg,#f7f5ef 0%,#eef2f1 100%);
+      border-bottom:1px solid var(--line);
+    }
+    .eyebrow {
+      font-size:.86rem; font-weight:800; letter-spacing:.13em;
+      color:var(--accent); text-transform:uppercase;
+    }
+    h1 {
+      font-size:clamp(2rem,5vw,4.2rem);
+      line-height:1.2; margin:.45em 0 .35em;
+      letter-spacing:-.03em;
+    }
+    .lead {
+      font-size:clamp(1.05rem,2vw,1.35rem);
+      max-width:780px; color:#3e4855;
+    }
+    .chips {
+      display:flex; flex-wrap:wrap; gap:10px; margin:28px 0 0;
+    }
+    .chip {
+      background:white; border:1px solid var(--line);
+      padding:8px 13px; border-radius:999px; font-size:.9rem;
+    }
+    .hero-cta {
+      display:flex; flex-wrap:wrap; gap:12px; margin-top:30px;
+    }
+    .btn {
+      display:inline-block; text-decoration:none; font-weight:800;
+      padding:14px 22px; border-radius:10px;
+    }
+    .btn-primary { background:var(--accent); color:white; }
+    .btn-secondary { border:1px solid var(--accent); color:var(--accent); background:white; }
+    section { padding:72px 0; }
+    .section-title {
+      font-size:clamp(1.7rem,3vw,2.5rem);
+      margin:0 0 14px; line-height:1.35;
+    }
+    .section-intro { max-width:760px; color:var(--muted); margin-bottom:34px; }
+    .grid3, .grid2 {
+      display:grid; gap:20px;
+    }
+    .grid3 { grid-template-columns:repeat(3,1fr); }
+    .grid2 { grid-template-columns:repeat(2,1fr); }
+    .card {
+      background:var(--card); border:1px solid var(--line);
+      border-radius:18px; padding:26px;
+      box-shadow:0 8px 30px rgba(30,50,60,.05);
+    }
+    .card h3 { margin-top:0; margin-bottom:8px; font-size:1.2rem; }
+    .number {
+      font-size:2rem; font-weight:900; color:var(--accent2); line-height:1;
+      margin-bottom:10px;
+    }
+    .service ul, .fit ul { padding-left:1.2em; margin-bottom:0; }
+    .story {
+      background:#1f2d33; color:white;
+    }
+    .story p { color:#dfe5e7; }
+    .quote {
+      font-size:clamp(1.5rem,3vw,2.2rem);
+      line-height:1.5; font-weight:800;
+      max-width:850px; margin:0;
+    }
+    .profile {
+      display:grid; grid-template-columns:1.15fr .85fr; gap:28px; align-items:start;
+    }
+    .facts {
+      display:grid; gap:12px;
+    }
+    .fact {
+      padding:16px 18px; background:white; color:var(--ink);
+      border-radius:12px; border:1px solid var(--line);
+    }
+    .cta {
+      background:linear-gradient(135deg,#173845,#245c6c);
+      color:white;
+    }
+    .cta p { color:#e4eef0; }
+    footer {
+      padding:30px 0 50px; color:var(--muted); font-size:.9rem;
+      border-top:1px solid var(--line);
+    }
+    .small { font-size:.9rem; color:var(--muted); }
+    @media (max-width:780px) {
+      .grid3,.grid2,.profile { grid-template-columns:1fr; }
+      .nav .brand { font-size:.9rem; }
+      .hero { padding-top:62px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">ポストプレミアム株式会社</div>
+    <a href="#contact">相談してみる</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">AI Publishing × Corporate Branding</div>
+      <h1>企業の歴史と経営者の想いを、<br>AIと出版で「伝わる資産」に。</h1>
+      <p class="lead">
+        社史・社長史・自分史・ファミリーヒストリーを、取材から構成、文章、漫画、電子出版まで一貫して企画制作。
+        企業の歩みや経営者の想いを、採用・営業・事業承継・ブランディングに活かせるコンテンツへ変えていきます。
+      </p>
+      <div class="chips">
+        <span class="chip">社史・社長史</span>
+        <span class="chip">自分史・ファミリーヒストリー</span>
+        <span class="chip">電子書籍出版</span>
+        <span class="chip">企業PRコンテンツ</span>
+        <span class="chip">AI活用</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#services">サービスを見る</a>
+        <a class="btn btn-secondary" href="#contact">相談・お問い合わせ</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">「会社のことは知っている。でも、会社の物語は知らない。」</h2>
+      <p class="section-intro">
+        企業には、数字や商品だけでは伝わらない価値があります。創業時の苦労、転機となった決断、受け継いできた技術、
+        経営者が守り続けている想い。それらを言葉とビジュアルにし、次の世代へ残し、外へ伝えることが私たちの仕事です。
+      </p>
+      <div class="grid3">
+        <div class="card">
+          <div class="number">01</div>
+          <h3>歴史を掘り起こす</h3>
+          <p>経営者・社員へのヒアリングから、会社の歩み、転機、価値観、語り継ぐべきエピソードを整理します。</p>
+        </div>
+        <div class="card">
+          <div class="number">02</div>
+          <h3>物語として編集する</h3>
+          <p>年表ではなく「読まれる物語」へ。文章、漫画、写真、図解など最適な表現方法を組み合わせます。</p>
+        </div>
+        <div class="card">
+          <div class="number">03</div>
+          <h3>経営資産として活かす</h3>
+          <p>出版して終わりではなく、採用、営業、理念浸透、事業承継、周年事業などへの活用まで設計します。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" style="background:#f0eee7;">
+    <div class="wrap">
+      <h2 class="section-title">提供サービス</h2>
+      <p class="section-intro">
+        「本をつくる」ことを目的にせず、企業や人の価値を伝えるための出版・コンテンツ制作を行います。
+      </p>
+      <div class="grid2 service">
+        <div class="card">
+          <h3>社史・社長史</h3>
+          <p>創業から現在までの歩み、経営者の決断や理念を一冊に。周年事業、事業承継、採用、企業ブランディングにも活用できます。</p>
+        </div>
+        <div class="card">
+          <h3>自分史・ファミリーヒストリー</h3>
+          <p>本人や家族への取材、資料整理を通じて人生や家族の物語を残します。文章だけでなく漫画化にも対応します。</p>
+        </div>
+        <div class="card">
+          <h3>電子書籍・漫画出版</h3>
+          <p>企画、構成、原稿、画像制作、電子書籍化まで一貫支援。専門知識や経験を「読まれる資産」に変換します。</p>
+        </div>
+        <div class="card">
+          <h3>AI出版・企業PR支援</h3>
+          <p>AIを実務に取り入れ、企画整理、情報構造化、制作、改善を効率化。企業PRコンテンツや出版マーケティングにつなげます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="wrap">
+      <p class="quote">
+        技術がわかる出版人。<br>
+        経営がわかる聞き手。<br>
+        AIを実務で使うコンテンツ制作者。
+      </p>
+      <p style="max-width:760px;margin-top:24px;">
+        この三つを併せ持つことが、ポストプレミアム株式会社の強みです。
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap profile">
+      <div>
+        <h2 class="section-title">代表プロフィール</h2>
+        <p>
+          20代から30代をヒューレット・パッカード社でエンジニアとして過ごし、その後起業。
+          企業伴走型のコンサルタントとして、事業づくり、人材育成、企業の成長支援に関わってきました。
+        </p>
+        <p>
+          一方で電子出版にも継続して取り組み、20冊以上を出版。企画、構成、文章、画像制作、出版までを実践してきました。
+          昨今はAIを学び、実務に取り入れ、AI社員2人と仕事をするような制作体制へ。
+          その経験をきっかけに「AI出版・企業ブランディング」事業を立ち上げています。
+        </p>
+      </div>
+      <div class="facts">
+        <div class="fact"><strong>技術</strong><br>HP社エンジニア経験</div>
+        <div class="fact"><strong>経営</strong><br>企業伴走型コンサルティング</div>
+        <div class="fact"><strong>出版</strong><br>電子書籍20冊以上</div>
+        <div class="fact"><strong>AI</strong><br>生成AIを制作・業務改善に実装</div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#f0eee7;">
+    <div class="wrap">
+      <h2 class="section-title">こんな企業・経営者の方へ</h2>
+      <div class="grid2 fit">
+        <div class="card">
+          <ul>
+            <li>創業・周年の節目に会社の歴史を残したい</li>
+            <li>経営者の想いを社員や次世代へ伝えたい</li>
+            <li>事業承継に向けて理念や背景を整理したい</li>
+          </ul>
+        </div>
+        <div class="card">
+          <ul>
+            <li>採用や営業で「会社らしさ」をもっと伝えたい</li>
+            <li>自社の強みや歴史をコンテンツ化したい</li>
+            <li>AIを活用して情報発信や出版を効率化したい</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <div class="wrap">
+      <h2 class="section-title">まずは、御社の「残したい物語」をお聞かせください。</h2>
+      <p style="max-width:760px;">
+        まだ社史を作ると決めていなくても構いません。「何を残せばよいかわからない」「社長の話を一度整理してみたい」
+        という段階からご相談いただけます。
+      </p>
+      <p><strong>ポストプレミアム株式会社</strong><br>
+      AI出版・企業ブランディング</p>
+
+      <!-- 公開前に下記メールアドレスを実際の問い合わせ先へ変更してください -->
+      <a class="btn" style="background:white;color:#173845;" href="mailto:YOUR-EMAIL@example.com">メールで相談する</a>
+      <p class="small" style="color:#cbd9dd;margin-top:16px;">
+        ※商工会議所「きぎょう情報交換会」でお会いした方は、その旨を添えていただければ幸いです。
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © 2026 Post Premium Inc. All Rights Reserved.
+  </div>
+</footer>
+</body>
+</html>
